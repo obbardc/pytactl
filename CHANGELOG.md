@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- A `listcommands` subcommand lists the commands a debug board supports: the
+  quick methods from its config script and its pin commands.
+
 ## [3.2] - 2026-10-19
 
 ### Added
