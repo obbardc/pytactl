@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- When no board matches `--serial`, the error now says the board may be
+  connected but not accessible and points to the USB permissions section of
+  the README. pyusb skips devices it cannot open, so a permissions problem
+  used to be reported only as "board not found".
+
 ## [3.2] - 2026-10-19
 
 ### Added
